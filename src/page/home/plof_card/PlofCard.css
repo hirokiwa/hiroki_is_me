@@ -1,0 +1,19 @@
+.PlofCard{
+    display: flex;
+    margin: 1rem;
+    background-color: rgb(255, 249, 249);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.me{
+    width: 40%;
+}
+
+.my_data{
+    width: 50%;
+    text-align: left;
+}
+
+.my_name{
+    margin: 0;
+}
