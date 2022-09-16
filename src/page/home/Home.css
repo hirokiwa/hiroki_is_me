@@ -2,6 +2,36 @@
   width: 100%;
 }
 
+.top_img_outer{
+  position: relative;
+}
+
+.thank{
+  position: absolute;
+    /* top: 480px; */
+    bottom: 1rem;
+    /* margin: 0px auto; */
+    font-size: 1rem;
+    font-family: "Yu Mincho", "游明朝";
+    color: cornsilk;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: slideIn 4s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
 .loader {
     color:gray;
     font-size: 20px;
