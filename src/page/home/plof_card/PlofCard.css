@@ -1,19 +1,95 @@
 .PlofCard{
     display: flex;
+    flex-direction: row;
     margin: 1rem;
     background-color: rgb(255, 249, 249);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden
 }
 
 .me{
-    width: 40%;
+    margin: 0 1rem;
+    width: 20%;
+    height: auto;
+    /* min-width: 113px; */
+    /* max-width: 268px; */
+    animation: buttom 1s ease 1s 1 normal backwards;
+}
+
+@keyframes buttom {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@keyframes top {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@keyframes right {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
 }
 
 .my_data{
-    width: 50%;
+    min-width: 0;
+    padding-right: 1rem;
     text-align: left;
+}
+
+.prolife{
+    animation: top 1s ease 1s 1 normal backwards;
 }
 
 .my_name{
     margin: 0;
+    margin-top:1rem;
+}
+
+.ditail{
+    padding-left: 1rem;
+    border-bottom: solid 1px black;
+    padding-bottom: 1rem;
+    
+    margin-bottom: 1rem;
+}
+
+.follow_me{
+    margin: 0;
+    animation: right 1s ease 1s 1 normal backwards;
+}
+
+.sns{
+    /* overflow-x: scroll; */
+    margin-left: 1rem;
+    animation: right 1s ease 1s 1 normal backwards;
+}
+
+.sns_button{
+}
+
+.sns_icon{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
