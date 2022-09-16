@@ -1,0 +1,17 @@
+.Header{
+    background-color: #005500;
+    /* height: 2.5rem; */
+    text-align: left;
+    display: flex;
+}
+
+.headder_icon{
+    height: 2em;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+
+.title{
+    color: #fff;
+    font-size: 2rem;
+}
