@@ -1,5 +1,6 @@
 .PlofCard{
     display: flex;
+    text-align: left;
     flex-direction: row;
     margin: 1rem;
     background-color: rgb(255, 249, 249);
@@ -10,13 +11,36 @@
 .me{
     margin: 0 1rem;
     width: 20%;
-    height: auto;
     /* min-width: 113px; */
     /* max-width: 268px; */
     animation: buttom 1s ease 1s 1 normal backwards;
 }
 
-@keyframes buttom {
+@media screen and (max-width: 500px) {
+  .me{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .me{
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .me{
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .me{
+    width: 40%;
+  }
+}
+
+/* @keyframes buttom {
     from {
       opacity: 0;
       transform: translateY(20px);
@@ -47,7 +71,7 @@
       opacity: 1;
       transform: translateX(0);
     }
-}
+} */
 
 .my_data{
     min-width: 0;

@@ -1,6 +1,8 @@
 import React from 'react';
+import ButtonTop from '../../parts/button_top/ButtonTop';
 import Header from '../../parts/header/Header';
 import './Home.css';
+import Introduction from './introduction/Introduction';
 import PlofCard from './plof_card/PlofCard';
 
 const Home = ():JSX.Element => {
@@ -12,6 +14,8 @@ const Home = ():JSX.Element => {
         <div className='thank'>生きてるだけでありがとう</div>      
       </div>
       <PlofCard/>
+      <Introduction/>
+      <ButtonTop/>
     </div>
   );
 }

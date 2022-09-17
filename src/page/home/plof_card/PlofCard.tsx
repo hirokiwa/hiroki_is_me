@@ -1,5 +1,6 @@
 import React from 'react';
 import './PlofCard.css';
+// import '../../../common_style/Card.css'
 
 const PlofCard = ():JSX.Element => {
   return (
