@@ -1,0 +1,18 @@
+.ContentsCard{
+    text-align: left;
+    flex-direction: row;
+    margin: 1rem;
+    border-radius: 0.1rem;
+    background-color: rgb(255, 249, 249);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden
+}
+.contents{
+    text-decoration:none;
+}
+.contents_img{
+    width: 100%;
+}
+.contents_title{
+    margin: 0;
+}

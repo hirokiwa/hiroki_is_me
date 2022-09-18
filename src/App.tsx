@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Home from './page/home/Home';
+import Contents from './page/contents/Contents';
 
 const App = ():JSX.Element => {
   return (
@@ -10,6 +11,7 @@ const App = ():JSX.Element => {
       <BrowserRouter>
         <Routes>
           <Route path={`/`} element={<Home />} />
+          <Route path={`/contents`} element={<Contents />} />
         </Routes>
       </BrowserRouter>
     </div>

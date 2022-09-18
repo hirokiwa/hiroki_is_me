@@ -1,0 +1,26 @@
+[
+    {
+        "title":"GPA Calculator for Ritsumeikan",
+        "script":"立命館大学専用のGPA計算ツールです。",
+        "img":"https://raw.githubusercontent.com/hirokiwa/gpa_calculator/main/public/twitter_card_large.jpg",
+        "url":"https://rits-gpa.vercel.app/"
+    },
+    {
+        "title":"ぼくまさし",
+        "script":"「食事を与えて太らせる」人間育成型カロリー計算ツールです。",
+        "img":"https://raw.githubusercontent.com/watnows/hackathon-2022-team2/main/public/ogp_masashi.jpg",
+        "url":"https://masashi-calorie.vercel.app/"
+    },
+    {
+        "title":"Water Canvas",
+        "script":"水彩画のようなお絵描きツールです。",
+        "img":"https://images.wantedly.com/i/WRozzGi?w=1440",
+        "url":"https://water-canvas.netlify.app/"
+    },
+    {
+        "title":"ideal",
+        "script":"アイデア取引サービスです。",
+        "img":"https://images.wantedly.com/i/fVg4AzQ?w=1440",
+        "url":"https://fukuokaideal.herokuapp.com/"
+    }
+]

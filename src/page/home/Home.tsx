@@ -4,6 +4,7 @@ import Header from '../../parts/header/Header';
 import './Home.css';
 import Introduction from './introduction/Introduction';
 import PlofCard from './plof_card/PlofCard';
+import { Link } from "react-router-dom";
 
 const Home = ():JSX.Element => {
   return (
@@ -15,6 +16,7 @@ const Home = ():JSX.Element => {
       </div>
       <PlofCard/>
       <Introduction/>
+      <Link to={`/contents/`}>コンテンツ</Link>
       <ButtonTop/>
     </div>
   );
