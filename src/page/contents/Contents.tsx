@@ -6,9 +6,10 @@ import Repeat from '../../function/Repeat';
 import ContentsCard from './contents_card/ContentsCard';
 import data from './contents.json'
 import Copyright from '../../parts/copyright/Copyright';
+import { Link } from "react-router-dom";
+import '../../common_style/Link.css'
 
 const Contents = ():JSX.Element => {
-    console.log(data)
   return (
     <div className='Contents'>
         <Header/>
@@ -16,6 +17,7 @@ const Contents = ():JSX.Element => {
         <Repeat numTimes={data.length}>
             {(index:number) => <ContentsCard data = {data[index]}/>}
         </Repeat>
+        <Link className='back_page' to={`/`}>ホーム＜</Link>
       <ButtonTop/>
       <Copyright/>
     </div>

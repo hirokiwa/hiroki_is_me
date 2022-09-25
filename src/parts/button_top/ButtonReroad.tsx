@@ -2,13 +2,13 @@ import React from 'react';
 import './ButtonTop.css';
 // import '../../../common_style/Card.css'
 
-const ButtonTop = ():JSX.Element => {
+const ButtonReroad = ():JSX.Element => {
     const returnTop = () => {
         window.scrollTo({
           top: 0,
           // behavior: "smooth",
         })
-        // setTimeout(() => {window.location.reload()},0);
+        setTimeout(() => {window.location.reload()},0);
       };
 
   return (
@@ -19,4 +19,4 @@ const ButtonTop = ():JSX.Element => {
   );
 }
 
-export default ButtonTop;
+export default ButtonReroad;
