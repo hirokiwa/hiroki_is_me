@@ -5,6 +5,7 @@ import './Contents.css';
 import Repeat from '../../function/Repeat';
 import ContentsCard from './contents_card/ContentsCard';
 import data from './contents.json'
+import Copyright from '../../parts/copyright/Copyright';
 
 const Contents = ():JSX.Element => {
     console.log(data)
@@ -16,6 +17,7 @@ const Contents = ():JSX.Element => {
             {(index:number) => <ContentsCard data = {data[index]}/>}
         </Repeat>
       <ButtonTop/>
+      <Copyright/>
     </div>
   );
 }

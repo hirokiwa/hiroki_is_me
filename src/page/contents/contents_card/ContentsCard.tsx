@@ -21,10 +21,12 @@ const ContentsCard = (props:ContentsCard_type):JSX.Element => {
             href={props.data.url}
             className="contents"
             target="_blank"
-            rel="noreferrer noopener"> 
+            rel="noreferrer noopener">
             <img className="contents_img" src={props.data.img} alt="contents_img" />
-            <h3 className="contents_title">{props.data.title}</h3>
-            <div>{props.data.script}</div>          
+            <div className='contents_data'>
+              <h3 className="contents_title">{props.data.title}</h3>
+              <div>{props.data.script}</div>
+            </div>
         </a>
     </div>
   );

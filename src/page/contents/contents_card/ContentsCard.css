@@ -9,10 +9,15 @@
 }
 .contents{
     text-decoration:none;
+    color: #000000;
 }
 .contents_img{
     width: 100%;
 }
 .contents_title{
     margin: 0;
+}
+
+.contents_data{
+    margin: 0.5rem 1rem;
 }

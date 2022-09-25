@@ -5,6 +5,7 @@ import './Home.css';
 import Introduction from './introduction/Introduction';
 import PlofCard from './plof_card/PlofCard';
 import { Link } from "react-router-dom";
+import Copyright from '../../parts/copyright/Copyright';
 
 const Home = ():JSX.Element => {
   return (
@@ -18,6 +19,7 @@ const Home = ():JSX.Element => {
       <Introduction/>
       <Link to={`/contents/`}>コンテンツ</Link>
       <ButtonTop/>
+      <Copyright/>
     </div>
   );
 }
