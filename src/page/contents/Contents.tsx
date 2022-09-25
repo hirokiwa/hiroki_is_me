@@ -13,7 +13,7 @@ const Contents = ():JSX.Element => {
   return (
     <div className='Contents'>
         <Header/>
-        <div>コンテンツ</div>
+        <div className='page_title'>コンテンツ</div>
         <Repeat numTimes={data.length}>
             {(index:number) => <ContentsCard data = {data[index]}/>}
         </Repeat>
