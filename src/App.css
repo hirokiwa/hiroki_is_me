@@ -40,3 +40,10 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 700px) {
+  .App{
+    width: 50%;
+  margin: 0 auto;
+  }
+}
