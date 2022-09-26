@@ -8,13 +8,13 @@ import data from './contents.json'
 import Copyright from '../../parts/copyright/Copyright';
 import { Link } from "react-router-dom";
 import '../../common_style/Link.css'
+import Tab from '../../parts/tab/Tab';
 
 const Contents = ():JSX.Element => {
   return (
     <div className='Contents'>
-        <Header/>
-        <div className='page_title'>コンテンツ</div>
-        <Repeat numTimes={data.length}>
+        <Tab location='ホーム' />
+        <Repeat flex={false} numTimes={data.length}>
             {(index:number) => <ContentsCard data = {data[index]}/>}
         </Repeat>
         <Link className='back_page' to={`/`}>ホーム＜</Link>

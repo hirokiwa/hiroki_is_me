@@ -42,7 +42,7 @@
 }
 
 @media screen and (min-width: 700px) {
-  .App{
+  .app_inner{
     width: 50%;
   margin: 0 auto;
   }

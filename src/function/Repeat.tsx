@@ -1,6 +1,7 @@
 type type_repeat = {
     numTimes: number;
     children: any;
+    flex:boolean
     // display_flex:boolean;
   }
 
@@ -11,7 +12,7 @@ const Repeat = (props:type_repeat) => {
         items.push(props.children(i));
     }
 
-    return <div>{items}</div>;
+    return <div style={props.flex? {display: 'flex'}:{}}>{items}</div>;
 }
 
 export default Repeat

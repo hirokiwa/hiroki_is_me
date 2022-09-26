@@ -1,6 +1,7 @@
 import React from 'react';
 import './Introduction.css';
 import '../../../common_style/Card.css'
+import Tab from '../../../parts/tab/Tab';
 
 const Introduction = ():JSX.Element => {
   return (

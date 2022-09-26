@@ -8,11 +8,13 @@ import { Link } from "react-router-dom";
 import Copyright from '../../parts/copyright/Copyright';
 import ButtonReroad from '../../parts/button_top/ButtonReroad';
 import '../../common_style/Link.css'
+import Tab from '../../parts/tab/Tab';
 
 const Home = ():JSX.Element => {
   return (
     <div className='Home'>
-      <Header/>
+      {/* <Header/> */}
+      <Tab location='ホーム' />
       <div className='top_img_outer'>
         <img className='top_img' src="https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/top_img.jpg" alt="icon" />
         <div className='thank'>生きてるだけでありがとう</div>      

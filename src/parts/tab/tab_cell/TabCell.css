@@ -1,0 +1,15 @@
+.TabCell{
+    /* display: flex; */
+    /* text-align: center; */
+    margin: 0px 0.5rem;
+}
+
+.here_true{
+    text-decoration:none;
+    color: red;
+}
+
+.here_false{
+    text-decoration:none;
+    color: #24292f;
+}
