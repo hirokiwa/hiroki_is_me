@@ -9,7 +9,7 @@
 }
 
 .card_title{
-    margin: 0;
+    margin: 0.5rem;
     margin-bottom: 0.5remrem;
     animation: left 1s ease 1s 1 normal backwards;
 }
@@ -17,6 +17,7 @@
 .main_text{
     padding-left: 1rem;
     animation: right 1s ease 1s 1 normal backwards;
+    margin-bottom: 0.5rem;
     /* padding-left: 1rem; */
 }
 
