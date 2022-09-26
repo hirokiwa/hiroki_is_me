@@ -1,10 +1,12 @@
 .ButtonTop{
     padding: 1rem;
+    border: 0px;
 }
 
 .returnTop{
     padding: 1rem;
     margin: 1rem;
     background-color: rgb(255, 249, 249);
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);    
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border: 0px;
 }

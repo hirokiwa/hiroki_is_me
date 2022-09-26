@@ -17,8 +17,12 @@
 .main_text{
     padding-left: 1rem;
     animation: right 1s ease 1s 1 normal backwards;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     /* padding-left: 1rem; */
+}
+
+h3{
+  margin: 0px 0px 0.5rem 0px;
 }
 
 @keyframes buttom {
