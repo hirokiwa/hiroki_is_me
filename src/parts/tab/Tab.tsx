@@ -14,9 +14,10 @@ const Tab = (props:tab_type):JSX.Element => {
       {/* <div className='page_title'>コンテンツ</div> */}
       <Repeat numTimes={page.length} flex={true}>
             {(index:number) => <TabCell 
-                display_name={page[index].display_name}
-                path={page[index].path}
-                location={props.location}
+                // display_name={page[index].display_name}
+                // path={page[index].path}
+                // location={props.location}
+                page = {page[index]}
             />}
         </Repeat>
     </div>

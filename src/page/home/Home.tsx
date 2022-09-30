@@ -1,3 +1,5 @@
+// page 1
+
 import React from 'react';
 // import ButtonTop from '../../parts/button_top/ButtonTop';
 import Header from '../../parts/header/Header';

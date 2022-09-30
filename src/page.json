@@ -1,11 +1,11 @@
 [
     {
-        "path":"",
+        "path":"/",
         "component":"Home",
         "display_name":"ホーム"
     },
     {
-        "path":"contents",
+        "path":"/contents",
         "component":"Contents",
         "display_name":"コンテンツ"
     }
