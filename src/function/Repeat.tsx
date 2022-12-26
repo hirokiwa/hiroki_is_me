@@ -1,8 +1,10 @@
+import './Repeat.css';
+
 type type_repeat = {
     numTimes: number;
     children: any;
-    // display_flex:boolean;
-  }
+    display_flex:boolean;
+}
 
 const Repeat = (props:type_repeat) => {
 
@@ -11,7 +13,7 @@ const Repeat = (props:type_repeat) => {
         items.push(props.children(i));
     }
 
-    return <div>{items}</div>;
+    return props.display_flex ? <div className="flex_true">{items}</div> : <div>{items}</div>;
 }
 
 export default Repeat

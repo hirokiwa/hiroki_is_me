@@ -8,20 +8,23 @@ import { Link } from "react-router-dom";
 import Copyright from '../../parts/copyright/Copyright';
 import ButtonReroad from '../../parts/button_top/ButtonReroad';
 import '../../common_style/Link.css'
+import Footer from '../../parts/footer/Footer';
 
-const Home = ():JSX.Element => {
+const Home = (): JSX.Element => {
   return (
     <div className='Home'>
-      <Header/>
-      <div className='top_img_outer'>
-        <img className='top_img' src="https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/top_img.jpg" alt="icon" />
-        <div className='thank'>生きてるだけでありがとう</div>      
+      <Header />
+      <div className='Home_inner'>
+        <div className='top_img_outer'>
+          <img className='top_img' src="https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/top_img.jpg" alt="icon" />
+          <div className='thank'>生きてるだけでありがとう</div>      
+        </div>
+        <PlofCard/>
+        <Introduction />
+        <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
+        <ButtonReroad/>
       </div>
-      <PlofCard/>
-      <Introduction/>
-      <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
-      <ButtonReroad/>
-      <Copyright/>
+      <Footer/>
     </div>
   );
 }

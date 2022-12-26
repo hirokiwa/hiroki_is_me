@@ -1,10 +1,10 @@
 import React from 'react';
-// import './Header.css';
+import './Copyright.css';
 
 const Copyright = ():JSX.Element => {
   return (
     <div className='Copyright'>
-        <div>©2022 Hiroki Fsusayasu</div>
+        <div className='text'>©2022 Hiroki Fsusayasu</div>
     </div>
   );
 }

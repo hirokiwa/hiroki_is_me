@@ -1,5 +1,11 @@
 [
     {
+        "title":"Alexture Diary",
+        "script":"Alexaに話しかけて絵日記を生成するツールです。",
+        "img":"https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01GDHPMZWJJHKNSF1QSQVA16Q3.png&w=3840&q=60",
+        "url":"https://alexturediary.vercel.app/"
+    },
+    {
         "title":"GPA Calculator for Ritsumeikan",
         "script":"立命館大学専用のGPA計算ツールです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/gpa_calculator/main/public/twitter_card_large.jpg",
@@ -20,7 +26,7 @@
     {
         "title":"ideal",
         "script":"アイデア取引サービスです。",
-        "img":"https://images.wantedly.com/i/fVg4AzQ?w=1440",
-        "url":"https://fukuokaideal.herokuapp.com/"
+        "img":"https://raw.githubusercontent.com/hirokiwa/ideal/main/public/large_card.jpg?token=GHSAT0AAAAAABZJ32RM4JU4LINDUOVNSEOUY5J5RPQ",
+        "url":"https://idealapp.vercel.app/"
     }
 ]

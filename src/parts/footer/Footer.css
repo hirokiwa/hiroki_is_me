@@ -1,0 +1,8 @@
+.Footer{
+    padding-top: 20px;
+    background-color: #696969;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    z-index: 100;
+}
