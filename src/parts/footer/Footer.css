@@ -1,8 +1,16 @@
 .Footer{
-    padding-top: 20px;
+    padding: 10px 0;
     background-color: #696969;
-    text-align: center;
-    height: 30px;
     width: 100%;
     z-index: 100;
+    color: #fff;
+}
+
+.Footer_text{
+    font-size: small;
+}
+
+.footer_title{
+    font-size: large;
+    margin: 1rem 0;
 }
