@@ -26,8 +26,7 @@
     {
         "title":"ideal",
         "script":"アイデア取引サービスです。",
-        "img":"https://raw.githubusercontent.com/hirokiwa/ideal/main/public/S__120971266.jpg?token=GHSAT0AAAAAABZJ32RNMPOE5P333FHNKS36Y5LJ6BQ",
-        "img":"https://raw.githubusercontent.com/hirokiwa/ideal/main/public/S__120971266.jpg?token=GHSAT0AAAAAABZJ32RN73VM5CKZYWQERTM4Y5LLZWA",
+        "img":"https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/e485cbed44d059f5c141a15b62f720236b26848a/src/image_data/ideal_img.png",
         "url":"https://idealapp.vercel.app/"
     }
 ]
