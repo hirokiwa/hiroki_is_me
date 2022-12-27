@@ -2,7 +2,7 @@
     {
         "title":"Alexture Diary",
         "script":"Alexaに話しかけてAIで絵日記を生成します。",
-        "img":"https://topaz.dev/_next/image?url=https%3A%2F%2Fptera-publish.topaz.dev%2Fproject%2F01GDHPMZWJJHKNSF1QSQVA16Q3.png&w=3840&q=60",
+        "img":"https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/708b5bd8188d1197fabe2f727be36bfd6259fcaa/src/image_data/messageImage_1672168230615.jpg",
         "url":"https://alexturediary.vercel.app/"
     },
     {
