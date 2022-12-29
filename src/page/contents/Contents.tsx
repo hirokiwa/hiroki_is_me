@@ -13,9 +13,10 @@ import Footer from '../../parts/footer/Footer';
 const Contents = ():JSX.Element => {
   return (
     <div className='Contents'>
-      <Header/>
+      <Header />
+      <div className='page_title'>コンテンツ</div>
       <div className='Contents_inner'>
-          <div className='page_title'>コンテンツ</div>
+          {/* <div className='page_title'>コンテンツ</div> */}
           <Repeat numTimes={data.length} display_flex = {false}>
               {(index:number) => <ContentsCard data = {data[index]}/>}
           </Repeat>

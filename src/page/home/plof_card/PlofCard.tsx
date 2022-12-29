@@ -6,14 +6,16 @@ const PlofCard = (): JSX.Element => {
 
     const getGradeStatus = (): gradeStates => {
         const today = new Date();
+        const graduationYear = 2025;
+        
         const isStudent = ():boolean => {
-            const studentLimit = new Date(2025, 2, 31);
-            return today <= studentLimit ? true : false;
+            const studentUntil = new Date(graduationYear, 2, 31);
+            return today <= studentUntil ? true : false;
         }
 
         const getGrade = (): grade => {
-            const year = today.getFullYear() - 2020;
-            const gradeValue = today.getMonth() < 3 ? year - 1 : year;
+            const year = today.getFullYear() - graduationYear + 5;
+            const gradeValue = today.getMonth() > 2 ? year : year - 1;
             const gradeYear = String(gradeValue) + "年" as grade;
             return gradeYear;
         }

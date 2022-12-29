@@ -6,7 +6,7 @@ const Footer = ():JSX.Element => {
   return (
       <div className='Footer'>
         <div className='Footer_text'>
-            エンジニアリングに心を躍らせています。
+            心躍るエンジニア
         </div>
         <div className='footer_title'>Hiroki is me</div>  
         <Copyright></Copyright>
