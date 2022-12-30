@@ -8,7 +8,7 @@ interface SlideContents_type  {
 
 const SlideContents = (): JSX.Element => {
   return (
-    <div className="SlideContents">
+      <div className="SlideContents">
           <div className="d-demo__wrap">
                 <ul className="d-demo__list d-demo__list--left">
                     <Repeat numTimes={data.length} display_flex = {true}>
