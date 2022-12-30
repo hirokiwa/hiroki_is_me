@@ -22,8 +22,10 @@ const Home = (): JSX.Element => {
         </div>
         <PlofCard/>
         <Introduction />
-        <SlideContents/>
-        <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
+        <SlideContents />
+        <div className='next_page_outer'>
+          <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
+        </div>
         <ButtonReroad/>
       </div>
       <Footer/>

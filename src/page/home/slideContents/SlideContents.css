@@ -41,9 +41,12 @@
   padding: 0;
   }
 
-  .demo__wrap:hover .d-demo__list--left{
+  .d-demo__list--left_stop{
     animation-play-state: paused;
   }
+  /* .demo__wrap:hover .d-demo__list--left{
+    animation-play-state: paused;
+  } */
   
   .d-demo__item > img{
      width: 100%;
