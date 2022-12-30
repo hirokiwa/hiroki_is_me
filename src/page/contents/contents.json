@@ -13,7 +13,7 @@
     },
     {
         "title":"ぼくまさし",
-        "script":"「食事を与えて太らせる」人間育成型カロリー計算ツールです。",
+        "script":"「食事を与えて太らせる」人間育成型カロリー計算機です。",
         "img":"https://raw.githubusercontent.com/watnows/hackathon-2022-team2/main/public/ogp_masashi.jpg",
         "url":"https://masashi-calorie.vercel.app/"
     },
