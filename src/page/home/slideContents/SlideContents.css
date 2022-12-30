@@ -1,0 +1,48 @@
+
+  @keyframes infinity-scroll-left {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /*
+  IE11対策
+  ----------------------------*/
+  _:-ms-lang(x)::-ms-backdrop,
+  .SlideContents {
+    display: -ms-grid;
+    overflow: hidden;
+  }
+  /*----------------------------*/
+  
+  .d-demo__wrap {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .d-demo__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .d-demo__list--left{
+  animation :infinity-scroll-left 60s infinite linear 0.5s both;
+  /* animation :infinity-scroll-left 95s infinite linear 0.5s both; */
+  padding: 0;
+  }
+
+  .demo__wrap:hover .d-demo__list--left{
+    animation-play-state: paused;
+  }
+  
+  /* .d-demo__item {
+    width: calc(100vw / 6);
+  } */
+  .d-demo__item > img{
+     width: 100%;
+  }

@@ -10,7 +10,8 @@ interface data_type{
 
 }
 interface ContentsCard_type{
-    data:data_type;
+  data: data_type;
+  slyde: boolean;
 }
 
 const ContentsCard = (props:ContentsCard_type):JSX.Element => {
@@ -22,8 +23,8 @@ const ContentsCard = (props:ContentsCard_type):JSX.Element => {
             className="contents"
             target="_blank"
             rel="noreferrer noopener">
-            <img className="contents_img" src={props.data.img} alt="contents_img" />
-            <div className='contents_data'>
+            <img className="contents_img" src={props.data.img} alt="contents_img" height={props.slyde? "156px":undefined}/>
+        <div className={props.slyde? 'contents_data_for_slide':'contents_data'}>
               <h3 className="contents_title">{props.data.title}</h3>
               <div>{props.data.script}</div>
             </div>

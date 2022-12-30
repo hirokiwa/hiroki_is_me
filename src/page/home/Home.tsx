@@ -9,6 +9,7 @@ import Copyright from '../../parts/copyright/Copyright';
 import ButtonReroad from '../../parts/button_top/ButtonReroad';
 import '../../common_style/Link.css'
 import Footer from '../../parts/footer/Footer';
+import SlideContents from './slideContents/SlideContents';
 
 const Home = (): JSX.Element => {
   return (
@@ -21,6 +22,7 @@ const Home = (): JSX.Element => {
         </div>
         <PlofCard/>
         <Introduction />
+        <SlideContents/>
         <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
         <ButtonReroad/>
       </div>

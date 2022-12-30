@@ -6,7 +6,7 @@
         "url":"https://alexturediary.vercel.app/"
     },
     {
-        "title":"GPA Calculator for Ritsumeikan",
+        "title":"GPA Calculator",
         "script":"立命館大学専用のGPA計算ツールです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/gpa_calculator/main/public/twitter_card_large.jpg",
         "url":"https://rits-gpa.vercel.app/"
