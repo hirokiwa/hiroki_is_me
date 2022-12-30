@@ -4,7 +4,7 @@ import '../../../common_style/Card.css'
 
 const Introduction = ():JSX.Element => {
   return (
-    <div className='Introduction Card'>
+    <div className='Introduction'>
       <div className='card_title_outer'>
         <h3 className='card_title'>ごあいさつ</h3>
       </div>

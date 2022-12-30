@@ -41,6 +41,12 @@
   }
 }
 
+@media screen and (max-width: 516px) {
+  .PlofCard {
+      margin: 1rem 1rem 1.5rem 1rem;
+  }
+}
+
 /* @keyframes buttom {
     from {
       opacity: 0;
