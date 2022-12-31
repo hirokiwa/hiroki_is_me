@@ -1,8 +1,11 @@
-import React from 'react';
 import { grade, gradeStates } from '../../../grade';
 import './PlofCard.css';
 
-const PlofCard = (): JSX.Element => {
+type PlofCard_type = {
+    mePath:string
+}
+
+const PlofCard = (props:PlofCard_type): JSX.Element => {
 
     const getGradeStatus = (): gradeStates => {
         const today = new Date();
@@ -24,7 +27,7 @@ const PlofCard = (): JSX.Element => {
 
     return (
         <div className='PlofCard'>
-            <img className='me' src="https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/plof_card/VYHB9671.PNG" alt="hiroki" />
+            <img className='me' src={props.mePath} alt="hiroki" />
             <div className='my_data'>
                 <div className='prolife'>
                     <h3 className='my_name'>ひろき</h3>

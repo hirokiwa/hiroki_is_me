@@ -11,16 +11,25 @@ import '../../common_style/Link.css'
 import Footer from '../../parts/footer/Footer';
 import SlideContents from './slideContents/SlideContents';
 
+const topPath = "https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/top_img.jpg";
+const mePath = "https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/plof_card/VYHB9671.PNG";
+
 const Home = (): JSX.Element => {
-  return (
+  const imgTop = new Image();
+  imgTop.src = topPath;
+
+  const imgMe = new Image();
+  imgMe.src = mePath;
+  
+    return (
     <div className='Home'>
       <Header />
       <div className='Home_inner'>
         <div className='top_img_outer'>
-          <img className='top_img' src="https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/develop/src/page/home/top_img.jpg" alt="icon" />
+          <img className='top_img' src={topPath} alt="icon" />
           <div className='thank'>生きてるだけでありがとう</div>      
         </div>
-        <PlofCard/>
+        <PlofCard mePath={mePath}/>
         <Introduction />
         <SlideContents />
         <div className='next_page_outer'>
