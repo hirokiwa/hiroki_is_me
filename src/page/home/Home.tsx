@@ -24,7 +24,7 @@ const Home = (): JSX.Element => {
         <Introduction />
         <SlideContents />
         <div className='next_page_outer'>
-          <Link className='next_page' to={`/contents/`}>＞コンテンツ一覧</Link>
+          <Link className='next_page' to={`/contents/`}>コンテンツ一覧</Link>
         </div>
         <ButtonReroad/>
       </div>

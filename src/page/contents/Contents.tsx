@@ -20,7 +20,9 @@ const Contents = ():JSX.Element => {
           <Repeat numTimes={data.length} display_flex = {false}>
           {(index: number) => <ContentsCard data={data[index]} slyde={false} />}
           </Repeat>
-          <Link className='back_page' to={`/`}>ホーム＜</Link>
+          <div className='next_page_outer'>
+            <Link className='next_page' to={`/`}>ホーム</Link>
+          </div>
         <ButtonTop/>
         <Copyright />
       </div>
