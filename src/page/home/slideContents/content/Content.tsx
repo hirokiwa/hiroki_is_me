@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ContentsCard from '../../../contents/contents_card/ContentsCard';
 import './Content.css';
 interface data_type{
@@ -12,12 +12,22 @@ interface Content_type{
     data:data_type;
 }
 
-const Content = (props:Content_type):JSX.Element => {
-  return (
-    <li className="d-demo__item">
-          <ContentsCard data={props.data} slyde={true} />
-    </li>
-  );
+const Content = (props: Content_type): JSX.Element => {
+    const [pick, setPick] = useState(false);
+    return (
+        <li className="d-demo__item">
+            <div 
+                onMouseEnter={() => setPick(true)}
+                onMouseLeave={() => setPick(false)}
+                style={ pick ?
+                    { "transform" : "scale(1.1, 1.1) rotate(-0.01turn)" } :
+                    undefined
+                }
+            >
+                <ContentsCard data={props.data} slyde={true} />
+            </div>
+        </li>
+    );
 }
 
 export default Content;
