@@ -10,7 +10,8 @@ import { Link } from "react-router-dom";
 import '../../common_style/Link.css'
 import Footer from '../../parts/footer/Footer';
 
-const Contents = ():JSX.Element => {
+const Contents = (): JSX.Element => {
+  window.scrollTo({ top: 0 });
   return (
     <div className='Contents'>
       <Header />

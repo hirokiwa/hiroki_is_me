@@ -19,7 +19,8 @@ const Home = (): JSX.Element => {
   imgTop.src = topPath;
 
   const imgMe = new Image();
-  imgMe.src = mePath;
+    imgMe.src = mePath;
+    window.scrollTo({ top: 0 });
   
     return (
     <div className='Home'>
