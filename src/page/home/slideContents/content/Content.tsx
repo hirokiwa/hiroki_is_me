@@ -20,7 +20,7 @@ const Content = (props: Content_type): JSX.Element => {
                 onMouseEnter={() => setPick(true)}
                 onMouseLeave={() => setPick(false)}
                 style={ pick ?
-                    { "transform" : "scale(1.1, 1.1) rotate(-0.01turn)" } :
+                    { "transform" : "scale(1.1, 1.1)" } :
                     undefined
                 }
             >
