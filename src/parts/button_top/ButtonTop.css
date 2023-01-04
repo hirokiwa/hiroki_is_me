@@ -10,3 +10,8 @@
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     border: 0px;
 }
+
+.returnTop:hover{
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
