@@ -8,6 +8,11 @@
     overflow: hidden;
     max-width: 500px;
 }
+
+.pickStyle{
+    transform : scale(1.05, 1.05)
+}
+
 .contents{
     text-decoration:none;
     color: #000000;

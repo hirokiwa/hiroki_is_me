@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ContentsCard.css';
 import '../../../common_style/Card.css'
 
@@ -14,9 +14,17 @@ interface ContentsCard_type{
   slyde: boolean;
 }
 
-const ContentsCard = (props:ContentsCard_type):JSX.Element => {
+const ContentsCard = (props: ContentsCard_type): JSX.Element => {
+  const [pick, setPick] = useState(false)
   return (
-    <div className='ContentsCard'>
+    <div
+      className = { pick ?
+        'ContentsCard pickStyle' :
+        'ContentsCard'
+      }
+      onMouseEnter = {() => setPick((window.location.pathname === "/contents/"))}
+      onMouseLeave = {() => setPick(false)}
+    >
         {/* <button onClick="loction.href={props.data.img}"></button> */}
         <a
             href={props.data.url}
