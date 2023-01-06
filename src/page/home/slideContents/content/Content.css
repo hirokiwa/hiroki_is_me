@@ -1,5 +1,4 @@
 .d-demo__item {
     width: 300px;
-    /* width: calc(100vw / 6); */
     margin: 0 1rem;
 }

@@ -17,9 +17,8 @@ const Contents = (): JSX.Element => {
       <Header />
       <div className='page_title'>コンテンツ</div>
       <div className='Contents_inner'>
-          {/* <div className='page_title'>コンテンツ</div> */}
           <Repeat numTimes={data.length} display_flex = {false}>
-          {(index: number) => <ContentsCard data={data[index]} slyde={false} />}
+            {(index: number) => <ContentsCard data={data[index]} slyde={false} />}
           </Repeat>
           <div className='next_page_outer'>
             <Link className='next_page' to={`/`}>ホーム</Link>

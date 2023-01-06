@@ -1,5 +1,4 @@
 import React from 'react';
-// import ButtonTop from '../../parts/button_top/ButtonTop';
 import Header from '../../parts/header/Header';
 import './Home.css';
 import Introduction from './introduction/Introduction';
@@ -19,10 +18,10 @@ const Home = (): JSX.Element => {
   imgTop.src = topPath;
 
   const imgMe = new Image();
-    imgMe.src = mePath;
-    window.scrollTo({ top: 0 });
+  imgMe.src = mePath;
+  window.scrollTo({ top: 0 });
   
-    return (
+  return (
     <div className='Home'>
       <Header />
       <div className='Home_inner'>

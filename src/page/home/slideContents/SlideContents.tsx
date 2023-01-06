@@ -9,8 +9,8 @@ interface SlideContents_type  {
 
 const SlideContents = (): JSX.Element => {
     const [stop, setStop] = useState(false)
-  return (
-      <div className="SlideContents">
+    return (
+        <div className="SlideContents">
             <div className="d-demo__wrap">
                 <ul className={stop?
                     "d-demo__list d-demo__list--left d-demo__list--left_stop":
@@ -34,9 +34,9 @@ const SlideContents = (): JSX.Element => {
                         {(index:number) => <Content data = {data[index]}/>}
                     </Repeat>
                 </ul>
+            </div>
         </div>
-    </div>
-  );
+    );
 }
 
 

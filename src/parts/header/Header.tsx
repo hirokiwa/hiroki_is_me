@@ -1,10 +1,12 @@
 import './Header.css';
+
 const Header = (): JSX.Element => {
   const clickTitle = () => {
     window.location.pathname === "/" ?
-      setTimeout(() => { window.location.reload() }, 0):
-      window.location.href = "/";
+    setTimeout(() => { window.location.reload() }, 0):
+    window.location.href = "/";
   }
+
   return (
     <div className='Header'>
       <button className='HeaderInner' onClick={()=>{clickTitle()}}>

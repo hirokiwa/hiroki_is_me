@@ -5,14 +5,14 @@
 }
 
 
-  @keyframes infinity-scroll-left {
+@keyframes infinity-scroll-left {
     from {
-      transform: translateX(0);
+        transform: translateX(0);
     }
     to {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
+}
   
   /*
   for IE11
@@ -44,9 +44,6 @@
   .d-demo__list--left_stop{
     animation-play-state: paused;
   }
-  /* .demo__wrap:hover .d-demo__list--left{
-    animation-play-state: paused;
-  } */
   
   .d-demo__item > img{
      width: 100%;
