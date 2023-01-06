@@ -34,9 +34,10 @@
 
 .thank{
   position: absolute;
+  font-size: larger;
+    font-family: 'Zen Antique', serif;
     bottom: 1rem;
     font-size: 1rem;
-    font-family: "Yu Mincho", "游明朝";
     color: cornsilk;
     left: 0;
     right: 0;
