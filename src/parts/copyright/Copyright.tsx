@@ -4,7 +4,7 @@ import './Copyright.css';
 const Copyright = ():JSX.Element => {
   return (
     <div className='Copyright'>
-        <div className='Copyright_text'>©2022-2023 Hiroki Fsusayasu</div>
+        <div className='Copyright_text'>©2022-2023 Hiroki Fususayasu</div>
     </div>
   );
 }
