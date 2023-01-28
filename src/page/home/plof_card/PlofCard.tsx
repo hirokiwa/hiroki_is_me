@@ -13,14 +13,13 @@ const PlofCard = (props:PlofCard_type): JSX.Element => {
         
         const isStudent = ():boolean => {
             const studentUntil = new Date(graduationYear, 2, 31);
-            return today <= studentUntil ? true : false;
+            return today <= studentUntil;
         }
 
         const getGrade = (): grade => {
             const year = today.getFullYear() - graduationYear + 5;
             const gradeValue = today.getMonth() > 2 ? year : year - 1;
-            const gradeYear = String(gradeValue) + "年" as grade;
-            return gradeYear;
+            return String(gradeValue) + "年" as grade;
         }
         return isStudent() ? getGrade(): "卒";
     }
