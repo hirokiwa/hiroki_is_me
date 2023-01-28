@@ -1,5 +1,6 @@
 import React from 'react';
 import './ButtonTop.css';
+import '../../common_style/Link.css'
 
 const ButtonReroad = ():JSX.Element => {
   const returnTop = () => {
@@ -11,7 +12,10 @@ const ButtonReroad = ():JSX.Element => {
   
   return (
     <div className='ButtonTop'>
-        <button className='returnTop' onClick={returnTop}>トップへ戻る</button>
+      <button className='returnTop' onClick={returnTop}>
+        <span className="material-symbols-outlined put_element_in_center">expand_less</span>
+        <span className='put_element_in_center'>トップへ戻る</span>
+      </button>
     </div>
   );
 }

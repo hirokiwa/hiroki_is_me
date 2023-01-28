@@ -29,3 +29,8 @@
     overflow: hidden;
     padding-bottom: 5px;
 }
+
+.put_element_in_center{
+    display: inline-block;
+    vertical-align: middle;
+}

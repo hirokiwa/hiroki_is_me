@@ -33,7 +33,10 @@ const Home = (): JSX.Element => {
         <Introduction />
         <SlideContents />
         <div className='next_page_outer'>
-          <Link className='next_page' to={`/contents/`}>コンテンツ一覧</Link>
+          <Link className='next_page' to={`/contents/`}>
+            <span className="material-symbols-outlined put_element_in_center">apps</span>
+            <span className='put_element_in_center'>コンテンツ一覧</span>
+          </Link>
         </div>
         <ButtonReroad/>
       </div>

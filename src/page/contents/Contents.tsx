@@ -21,7 +21,10 @@ const Contents = (): JSX.Element => {
             {(index: number) => <ContentsCard data={data[index]} slyde={false} />}
           </Repeat>
           <div className='next_page_outer'>
-            <Link className='next_page' to={`/`}>ホーム</Link>
+          <Link className='next_page' to={`/`}>
+            <span className="material-symbols-outlined put_element_in_center">home</span>
+            <span className='put_element_in_center'>ホーム</span>
+          </Link>
           </div>
         <ButtonTop/>
         <Copyright />
