@@ -11,7 +11,7 @@ const Header = (): JSX.Element => {
     <div className='Header'>
       <button className='HeaderInner' onClick={()=>{clickTitle()}}>
         <img className='headder_icon' src="https://hirokiwa.github.io/mypage/img/messageImage_1644108394365.jpg" alt="icon" />
-        <div className='title'>Hiroki is me</div> 
+        <div className='title'>hiroki</div> 
       </button>
     </div>
   );

@@ -8,7 +8,7 @@ const Footer = ():JSX.Element => {
       <div className='Footer_text'>
           心躍るエンジニア
       </div>
-      <div className='footer_title'>Hiroki is me</div>  
+      <div className='footer_title'>hirokiwa.com</div>  
       <Copyright></Copyright>
     </div>
   );
