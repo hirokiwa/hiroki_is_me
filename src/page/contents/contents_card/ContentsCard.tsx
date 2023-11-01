@@ -29,8 +29,8 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
         rel="noreferrer noopener"
         title={props.data.title}
         {
-          !props.slyde && 
-          <div className='tag_wrapper'>
+          props.slyde ? null
+          : <div className='tag_wrapper'>
             {
               props.data.tags.map((tag) => {
                 return (
