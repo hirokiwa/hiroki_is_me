@@ -4,35 +4,59 @@
         "script":"PCフレンドリーなQRコードリーダーです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/yomitorikun/develop/app/opengraph-image.jpg",
         "url":" https://yomitorikun.vercel.app",
+        "tags":[
+            "個人開発",
+            "フロントエンド"
+        ]
     },
     {
         "title":"Alexture Diary",
         "script":"Alexaに話しかけてAIで絵日記を生成します。",
         "img":"https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/708b5bd8188d1197fabe2f727be36bfd6259fcaa/src/image_data/messageImage_1672168230615.jpg",
-        "url":"https://alexturediary.vercel.app/"
+        "url":"https://alexturediary.vercel.app/",
+        "tags":[
+            "チーム開発",
+            "アレクサ連携"
+        ]
     },
     {
         "title":"GPA Calculator",
         "script":"立命館大学専用のGPA計算ツールです。",
         "img":"https://github-production-user-asset-6210df.s3.amazonaws.com/89170014/239520737-31f4621e-1d6a-43ad-a57e-5fcc3ff30e15.png",
         "url":"https://rits-gpa.vercel.app/",
+        "tags":[
+            "個人開発",
+            "フロントエンド"
+        ]
     },
     {
         "title":"ぼくまさし",
         "script":"「食事を与えて太らせる」人間育成型カロリー計算機です。",
         "img":"https://raw.githubusercontent.com/watnows/hackathon-2022-team2/main/public/ogp_masashi.jpg",
-        "url":"https://masashi-calorie.vercel.app/"
+        "url":"https://masashi-calorie.vercel.app/",
+        "tags":[
+            "チーム開発",
+            "バックエンド"
+        ]
     },
     {
         "title":"Water Canvas",
         "script":"水彩画のようなお絵描きツールです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/cce3539ba255d008320de520b5a6fa46d8142cd7/src/image_data/canvas_img.png",
-        "url":"https://water-canvas.netlify.app/"
+        "url":"https://water-canvas.netlify.app/",
+        "tags":[
+            "チーム開発",
+            "バックエンド"
+        ]
     },
     {
         "title":"ideal",
         "script":"アイデア取引サービスです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/hiroki_is_me/e485cbed44d059f5c141a15b62f720236b26848a/src/image_data/ideal_img.png",
-        "url":"https://idealapp.vercel.app/"
+        "url":"https://idealapp.vercel.app/",
+        "tags":[
+            "チーム開発",
+            "フロントエンド"
+        ]
     }
 ]

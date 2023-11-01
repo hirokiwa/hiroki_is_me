@@ -6,7 +6,8 @@ interface data_type{
   title:string;
   script:string;
   img:string;
-  url:string;
+  url: string;
+  tags: string[];
 }
 
 interface ContentsCard_type{
@@ -31,7 +32,16 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
         target="_blank"
         rel="noreferrer noopener"
       >
-        <img className="contents_img" src={props.data.img} alt="contents_img" height={props.slyde? "156px":undefined}/>
+        <img className="contents_img" src={props.data.img} alt="contents_img" height={props.slyde ? "156px" : undefined} />
+        <div className='tag_wrapper'>
+          {
+            props.data.tags.map((tag) => {
+              return (
+                <div className='tag'>{tag}</div>
+              )
+            })
+          }
+        </div>
         <div className={props.slyde? 'contents_data_for_slide':'contents_data'}>
           <h3 className="contents_title">{props.data.title}</h3>
           <div>{props.data.script}</div>

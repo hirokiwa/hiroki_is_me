@@ -5,8 +5,8 @@ interface data_type{
     title:string;
     script:string;
     img:string;
-    url:string;
-
+    url: string;
+    tags: string[];
 }
 interface Content_type{
     data:data_type;

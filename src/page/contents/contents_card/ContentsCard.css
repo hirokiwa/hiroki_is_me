@@ -33,6 +33,18 @@
     height: 80px;
 }
 
+.tag_wrapper{
+    display: flex;
+}
+
+.tag{
+    border: solid 0.5px black;
+    border-radius: 50vmin;
+    font-size: small;
+    margin: 0.2em;
+    padding: 0.2em 0.5em;
+}
+
 @media screen and (max-width: 500px) {
     .ContentsCard{
         margin: 1rem auto;
