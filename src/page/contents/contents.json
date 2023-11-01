@@ -3,7 +3,7 @@
         "title":"コピペでQR読み取りくん",
         "script":"PCフレンドリーなQRコードリーダーです。",
         "img":"https://raw.githubusercontent.com/hirokiwa/yomitorikun/develop/app/opengraph-image.jpg",
-        "url":" https://yomitorikun.vercel.app",
+        "url":" https://yomitorikun.hirokiwa.com",
         "tags":[
             "個人開発",
             "フロントエンド"
