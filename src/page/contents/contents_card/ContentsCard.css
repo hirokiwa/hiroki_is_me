@@ -35,6 +35,8 @@
 
 .tag_wrapper{
     display: flex;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
 }
 
 .tag{
