@@ -27,7 +27,7 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
         className="contents"
         target="_blank"
         rel="noreferrer noopener"
-      >
+        title={props.data.title}
         {
           !props.slyde && 
           <div className='tag_wrapper'>
