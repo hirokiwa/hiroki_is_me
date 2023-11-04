@@ -19,6 +19,7 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
   const [pick, setPick] = useState(false);
   return (
     <div
+      className='ContentsCard'
       onMouseEnter = {() => setPick(true)}
       onMouseLeave = {() => setPick(false)}
     >
