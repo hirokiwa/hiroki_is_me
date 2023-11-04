@@ -28,9 +28,7 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
         target="_blank"
         rel="noreferrer noopener"
         title={props.data.title}
-        {
-          props.slyde ? null
-          : <div className='tag_wrapper'>
+        {/* {<div className='tag_wrapper'>
             {
               props.data.tags.map((tag) => {
                 return (
@@ -39,7 +37,7 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
               })
             }
           </div>
-        }
+        } */}
         <div className={props.slyde? 'contents_data_for_slide':'contents_data'}>
           <h3 className="contents_title">{props.data.title}</h3>
           <div>{props.data.script}</div>
