@@ -28,6 +28,7 @@ const ContentsCard = (props: ContentsCard_type): JSX.Element => {
         target="_blank"
         rel="noreferrer noopener"
         title={props.data.title}
+      >
         {/* {<div className='tag_wrapper'>
             {
               props.data.tags.map((tag) => {
