@@ -13,19 +13,9 @@ interface Content_type{
 }
 
 const Content = (props: Content_type): JSX.Element => {
-    const [pick, setPick] = useState(false);
     return (
         <li className="d-demo__item">
-            <div 
-                onMouseEnter={() => setPick(true)}
-                onMouseLeave={() => setPick(false)}
-                style={ pick ?
-                    { "transform" : "scale(1.1, 1.1)" } :
-                    undefined
-                }
-            >
-                <ContentsCard data={props.data} slyde={true} />
-            </div>
+            <ContentsCard data={props.data} slyde={true} />
         </li>
     );
 }

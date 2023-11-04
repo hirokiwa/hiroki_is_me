@@ -8,17 +8,23 @@
     overflow: hidden;
     max-width: 500px;
 }
-
-.pickStyle{
-    transform : scale(1.05, 1.05)
+.ContentsCard:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
 }
 
 .contents{
     text-decoration:none;
     color: #000000;
 }
+.ContentsCard:hover .contents{
+    color: rgb(160, 160, 160);
+}
 .contents_img{
     width: 100%;
+    background-color: #e8e8e8;
+}
+.ContentsCard:hover .contents_img{
+    object-view-box: inset(5%);
 }
 .contents_title{
     margin: 0;
